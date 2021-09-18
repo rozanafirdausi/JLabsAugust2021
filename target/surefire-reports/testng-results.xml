@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-14T13:20:36Z" name="Surefire suite" finished-at="2021-09-14T13:27:47Z" duration-ms="431698">
+    <groups>
+    </groups>
+    <test started-at="2021-09-14T13:20:36Z" name="Surefire test" finished-at="2021-09-14T13:27:47Z" duration-ms="431698">
+      <class name="qaautomation.august2021.FailedTest">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.FailedTest@c1bd0be]" started-at="2021-09-14T13:23:23Z" name="createChromeDriver" finished-at="2021-09-14T13:24:25Z" duration-ms="61870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="test1()[pri:0, instance:qaautomation.august2021.FailedTest@c1bd0be]" started-at="2021-09-14T13:24:25Z" name="test1" description="login will failed" finished-at="2021-09-14T13:24:43Z" duration-ms="17795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.FailedTest@c1bd0be]" started-at="2021-09-14T13:24:43Z" name="quitChromeDriver" finished-at="2021-09-14T13:24:44Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.august2021.FailedTest -->
+      <class name="qaautomation.august2021.AppTest">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:20:36Z" name="createChromeDriver" finished-at="2021-09-14T13:21:12Z" duration-ms="36223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="test()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:21:12Z" name="test" description="login will be success" finished-at="2021-09-14T13:21:31Z" duration-ms="19101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:21:31Z" name="quitChromeDriver" finished-at="2021-09-14T13:21:32Z" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:21:32Z" name="createChromeDriver" finished-at="2021-09-14T13:22:57Z" duration-ms="85058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="test1()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:22:57Z" name="test1" description="login will failed" finished-at="2021-09-14T13:23:17Z" duration-ms="19637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.AppTest@5bd82fed]" started-at="2021-09-14T13:23:17Z" name="quitChromeDriver" finished-at="2021-09-14T13:23:18Z" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.august2021.AppTest -->
+      <class name="qaautomation.august2021.APITest">
+        <test-method is-config="true" signature="testLoginAPI()[pri:0, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:20:30Z" name="testLoginAPI" finished-at="2021-09-14T13:20:36Z" duration-ms="5679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAPI -->
+        <test-method signature="configAPI()[pri:0, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:23:18Z" name="configAPI" finished-at="2021-09-14T13:23:19Z" duration-ms="1540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAPI -->
+        <test-method signature="dashboardAPIWithSchema()[pri:0, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:23:19Z" name="dashboardAPIWithSchema" finished-at="2021-09-14T13:23:21Z" duration-ms="1873" status="FAIL">
+          <exception class="io.restassured.module.jsv.JsonSchemaValidationException">
+            <message>
+              <![CDATA[com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:233)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:75)
+at org.hamcrest.TypeSafeMatcher.matches(TypeSafeMatcher.java:67)
+at org.hamcrest.Matcher$matches.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:76)
+at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
+at io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:263)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+at groovy.lang.Closure.call(Closure.java:412)
+at groovy.lang.Closure.call(Closure.java:428)
+at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3575)
+at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3560)
+at org.codehaus.groovy.runtime.DefaultGroovyMethods.collect(DefaultGroovyMethods.java:3660)
+at org.codehaus.groovy.runtime.dgm$101.invoke(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:247)
+at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.assertion.BodyMatcherGroup.validate(BodyMatcherGroup.groovy:47)
+at io.restassured.assertion.BodyMatcherGroup$validate$3.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:480)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at qaautomation.august2021.APITest.dashboardAPIWithSchema(APITest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851)
+at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:707)
+at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:632)
+at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1941)
+at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776)
+at com.fasterxml.jackson.databind.MappingIterator.hasNextValue(MappingIterator.java:243)
+at com.github.fge.jackson.JsonNodeReader.readNode(JsonNodeReader.java:149)
+at com.github.fge.jackson.JsonNodeReader.fromReader(JsonNodeReader.java:129)
+at com.github.fge.jackson.JsonLoader.fromReader(JsonLoader.java:186)
+at com.github.fge.jackson.JsonLoader.fromString(JsonLoader.java:199)
+at io.restassured.module.jsv.JsonSchemaValidator.matchesSafely(JsonSchemaValidator.java:214)
+... 96 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.module.jsv.JsonSchemaValidationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardAPIWithSchema -->
+        <test-method signature="fakerEmail()[pri:0, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:23:21Z" name="fakerEmail" finished-at="2021-09-14T13:23:22Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fakerEmail -->
+        <test-method signature="incorrectLoginAPI()[pri:0, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:23:22Z" name="incorrectLoginAPI" finished-at="2021-09-14T13:23:23Z" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginAPI -->
+        <test-method signature="userAPI()[pri:2, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:27:43Z" name="userAPI" finished-at="2021-09-14T13:27:45Z" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userAPI -->
+        <test-method signature="dashboardAPI()[pri:3, instance:qaautomation.august2021.APITest@3b2c0e88]" started-at="2021-09-14T13:27:45Z" name="dashboardAPI" finished-at="2021-09-14T13:27:47Z" duration-ms="2289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardAPI -->
+      </class> <!-- qaautomation.august2021.APITest -->
+      <class name="qaautomation.august2021.SwitchTest">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:24:44Z" name="createChromeDriver" finished-at="2021-09-14T13:25:19Z" duration-ms="35409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testForwardBackRefresh()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:25:19Z" name="testForwardBackRefresh" finished-at="2021-09-14T13:25:28Z" duration-ms="8718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForwardBackRefresh -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:25:28Z" name="quitChromeDriver" finished-at="2021-09-14T13:25:29Z" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:25:29Z" name="createChromeDriver" finished-at="2021-09-14T13:26:04Z" duration-ms="34538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testSwitchIframe()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:26:04Z" name="testSwitchIframe" finished-at="2021-09-14T13:26:12Z" duration-ms="8136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitchIframe -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:26:12Z" name="quitChromeDriver" finished-at="2021-09-14T13:26:13Z" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:26:13Z" name="createChromeDriver" finished-at="2021-09-14T13:26:53Z" duration-ms="40275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testSwitching()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:26:53Z" name="testSwitching" finished-at="2021-09-14T13:26:59Z" duration-ms="6128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitching -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:26:59Z" name="quitChromeDriver" finished-at="2021-09-14T13:27:01Z" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:27:01Z" name="createChromeDriver" finished-at="2021-09-14T13:27:40Z" duration-ms="39250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testSwitchingWindow()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:27:40Z" name="testSwitchingWindow" finished-at="2021-09-14T13:27:42Z" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSwitchingWindow -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@476b0ae6]" started-at="2021-09-14T13:27:42Z" name="quitChromeDriver" finished-at="2021-09-14T13:27:43Z" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.august2021.SwitchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 439.148 s <<< FAILURE! - in TestSuite
+dashboardAPIWithSchema(qaautomation.august2021.APITest)  Time elapsed: 1.882 s  <<< FAILURE!
+io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+	at qaautomation.august2021.APITest.dashboardAPIWithSchema(APITest.java:67)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 2]
+	at qaautomation.august2021.APITest.dashboardAPIWithSchema(APITest.java:67)
+
