@@ -55,7 +55,9 @@ public class SwitchTest extends BaseWebTest {
 		driver.get().findElement(By.id("refreshbut")).click();
 		driver.get().findElement(By.id("newmail")).click();
 		driver.get().switchTo().frame(2);
+		TestUtility.hardWait(3);
 		driver.get().findElement(By.id("msgto")).click();
+		TestUtility.hardWait(3);
 		driver.get().findElement(By.id("msgto")).sendKeys("automationtest");
 		driver.get().findElement(By.id("msgsubject")).click();
 		driver.get().findElement(By.id("msgsubject")).sendKeys("subject");

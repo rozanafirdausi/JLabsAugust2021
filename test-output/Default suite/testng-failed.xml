@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qaautomation.august2021.APITest">
+      <class name="qaautomation.august2021.SwitchTest">
         <methods>
-          <include name="testLoginAPI"/>
-          <include name="registerUsingFaker"/>
+          <include name="createChromeDriver"/>
+          <include name="quitChromeDriver"/>
+          <include name="testYopmail"/>
         </methods>
-      </class> <!-- qaautomation.august2021.APITest -->
+      </class> <!-- qaautomation.august2021.SwitchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-17T12:38:13Z" name="Default suite" finished-at="2021-09-17T12:38:16Z" duration-ms="2574">
+  <suite started-at="2021-09-25T04:05:15Z" name="Default suite" finished-at="2021-09-25T04:06:17Z" duration-ms="62089">
     <groups>
     </groups>
-    <test started-at="2021-09-17T12:38:13Z" name="Default test" finished-at="2021-09-17T12:38:16Z" duration-ms="2574">
-      <class name="qaautomation.august2021.APITest">
-        <test-method is-config="true" signature="testLoginAPI()[pri:0, instance:qaautomation.august2021.APITest@3301500b]" started-at="2021-09-17T12:38:10Z" name="testLoginAPI" finished-at="2021-09-17T12:38:13Z" duration-ms="3260" status="PASS">
+    <test started-at="2021-09-25T04:05:15Z" name="Default test" finished-at="2021-09-25T04:06:17Z" duration-ms="62089">
+      <class name="qaautomation.august2021.SwitchTest">
+        <test-method is-config="true" signature="createChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@1ca3b418]" started-at="2021-09-25T04:05:15Z" name="createChromeDriver" finished-at="2021-09-25T04:05:25Z" duration-ms="9884" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoginAPI -->
-        <test-method signature="registerUsingFaker()[pri:0, instance:qaautomation.august2021.APITest@3301500b]" started-at="2021-09-17T12:38:13Z" name="registerUsingFaker" finished-at="2021-09-17T12:38:16Z" duration-ms="2558" status="PASS">
+        </test-method> <!-- createChromeDriver -->
+        <test-method signature="testMakeMyTrip()[pri:0, instance:qaautomation.august2021.SwitchTest@1ca3b418]" started-at="2021-09-25T04:05:25Z" name="testMakeMyTrip" finished-at="2021-09-25T04:06:16Z" duration-ms="50958" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerUsingFaker -->
-      </class> <!-- qaautomation.august2021.APITest -->
+        </test-method> <!-- testMakeMyTrip -->
+        <test-method is-config="true" signature="quitChromeDriver()[pri:0, instance:qaautomation.august2021.SwitchTest@1ca3b418]" started-at="2021-09-25T04:06:16Z" name="quitChromeDriver" finished-at="2021-09-25T04:06:17Z" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChromeDriver -->
+      </class> <!-- qaautomation.august2021.SwitchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
